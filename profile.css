@@ -1,0 +1,140 @@
+.profile {
+  margin-top: 85px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.profile-mother__circle {
+  width: 170px;
+  height: 170px;
+  transform: rotateZ(45deg);
+  background: linear-gradient(#d22c83, #f99f4f);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.profile-circle {
+  transform: rotateZ(-45deg);
+  width: 163px;
+  height: 163px;
+  border-radius: 50%;
+  border: solid 5px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  background-color: white;
+}
+
+.profile-name {
+  font-size: 28px;
+}
+
+.profile-contents {
+  display: flex;
+  flex-direction: column;
+  margin-left: 90px;
+  margin-right: 200px;
+  margin: 15px 200px 0px 90px;
+}
+
+.profile-title {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.follow-btn {
+  width: 90px;
+  height: 28px;
+  background-color: #0095f6;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.fa-check {
+  color: white;
+  font-size: 7.5px;
+}
+
+.check-circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #0095f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-btn {
+  background-color: #0095f6;
+  border: none;
+  border-radius: 5px;
+  width: 34px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-chevron-down {
+  color: white;
+  font-size: 10px;
+}
+
+.ellipsis-btn {
+  background-color: #fafafa;
+  border: none;
+  font-size: 20px;
+}
+
+.profile-info {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  margin: 30px 0px 30px 0px;
+}
+
+.profile-post {
+  width: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-post__two {
+  font-weight: 800;
+}
+
+.profile-follower {
+  width: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-follow {
+  width: 90px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-follower__two {
+  font-weight: 800;
+}
+
+.profile-follow__two {
+  font-weight: 800;
+}
+
+.profile-text {
+  font-size: 18px;
+  line-height: 30px;
+}

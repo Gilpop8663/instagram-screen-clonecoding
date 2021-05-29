@@ -1,0 +1,24 @@
+.btns-li {
+  width: 110%;
+  position: relative;
+  bottom: 90px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  opacity: 0.8;
+  color: bisque;
+  margin-left: 10px;
+}
+
+.back-btn {
+  border: none;
+  background: none;
+  color: dimgrey;
+}
+
+.next-btn {
+  border: none;
+  background: none;
+  color: dimgrey;
+}

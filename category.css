@@ -1,0 +1,7 @@
+.category {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  font-size: 12px;
+  margin: 20px 0px 20px 0px;
+}

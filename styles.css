@@ -1,0 +1,29 @@
+@import "reset.css";
+@import "header.css";
+@import "profile.css";
+@import "sub.css";
+@import "lines.css";
+@import "category.css";
+@import "posts.css";
+@import "btns.css";
+@import "modal.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  margin: 0px;
+}
+
+.earth {
+  width: 100%;
+  margin: 0px auto 0px auto;
+  max-width: 930px;
+  height: 130vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250%;
+}
